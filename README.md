@@ -1,6 +1,6 @@
 # Enhancing Graph-to-Text Systems in Low-Resource Settings: Distilling Chain-of-Thought Reasoning for Task-Specific Worflows
 
-Here we present the code that can be used to replicate our experiments for our final report, Enhancing Graph-to-Text Systems in Low-Resource Settings: Distilling Chain-of-Thought Reasoning for Task-Specific Worflows. All the preprocessing and fine-tuning steps can be found in the notebooks given in the following folders:
+Here we present the code that can be used to replicate our experiments for our final report, [Enhancing Graph-to-Text Systems in Low-Resource Settings: Distilling Chain-of-Thought Reasoning for Task-Specific Worflows](https://github.com/davidguzmanp/Graph-to-Text-LLM-with-dataset-augmentation/blob/main/CS4NLP_Final_Report.pdf). All the preprocessing and fine-tuning steps can be found in the notebooks given in the following folders:
 
 1. [PLMs finetuned for data to text](https://github.com/davidguzmanp/Graph-to-Text-LLM-with-dataset-augmentation/tree/main/1.%20PLMs%20finetuned%20for%20data%20to%20text): We pre-train and fine-tune a FLAN-T5-small model on the 2017 version of WebNLG dataset for the graph-to-text task. We evaluate the performance using the BLEU, NLTK BLEU and chrF++ metrics. This is a reproduction of the paper: "[Investigating Pretrained Language Models for Graph-to-Text Generation](https://arxiv.org/pdf/2007.08426.pdf)", EMNLP | NLP4ConvAI.
 2021a).
